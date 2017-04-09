@@ -1,0 +1,46 @@
+/*
+ Base styling for the navigation bar
+*/
+.navbar {
+  margin-bottom: 0;
+  background-color: #292622;
+  border: 0;
+  opacity: 0.9;
+}
+
+.navbar-default .navbar-brand {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.navbar-default .navbar-nav li a {
+  color: #ffffff;
+  min-width: 8em;
+  width: inherit;
+  margin: 1em;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: -webkit-center;
+}
+
+/*
+ Link styling for the navigation bar
+*/
+.navbar-default .navbar-header a:visited,
+.navbar-default .navbar-header a:hover,
+.navbar-default .navbar-header a:active {
+  color: #ffffff;
+}
+
+.navbar-default .navbar-nav li a:visited {
+  background: #292622;
+  color: #ffffff;
+}
+
+.navbar-default .navbar-nav li a:hover,
+.navbar-default .navbar-nav li.active a,
+.navbar-default .navbar-nav li.active a:visited,
+.navbar-default .navbar-nav li.active a:hover {
+  background: #3f3d35;
+  color: #ffffff;
+}

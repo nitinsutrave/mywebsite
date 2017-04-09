@@ -1,0 +1,72 @@
+.background-image-container {
+	position: fixed;
+	z-index: -10;
+	height: 100%;
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	background-image: url('http://res.cloudinary.com/nitinsutrave/image/upload/q_31/v1491766504/background_o8piuy.jpg');
+	background-position: fixed;
+	background-size: cover;
+}
+
+.content-outer-div {
+	min-height: 95vh;
+	padding-top: 55px;
+
+	font-family: 'Montserrat';
+	font-size: 140%;
+	color: #ebebea;
+}
+
+.row {
+	margin-bottom: 20px;
+}
+
+.landing-outer-div {
+	margin-top: 20%;
+}
+
+#landing {
+	background-color: #3f3d35;
+	opacity: 0.6;
+
+	font-family: 'Tangerine';
+	font-size: 300%;
+}
+
+#about {
+	background-color: #57493c;
+}
+
+#blog {
+	background-color: #334559;
+}
+
+#photography {
+	background-color: #b04229;
+}
+
+#photoCarousel {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+}
+
+.carousel-image, .carousel .slide, #photoCarousel {
+	max-width: 720px;
+	max-height: 480px;
+}
+
+#contact {
+	background-color: #4c4c4c;
+	font-size: 100%;
+}
+
+.contact-link, .contact-link:visited, .contact-link:hover {
+	color: #ebebea;
+}
+
+.contact-link:focus {
+  text-decoration: none;
+}

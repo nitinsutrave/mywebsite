@@ -1,0 +1,35 @@
+.btn {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+.btn:focus {
+  outline: 0;
+}
+
+.button-div {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+#see-blog-button {
+  color: #ebebea;
+  background-color: #334559;
+  border-color: #ebebea;
+}
+
+#see-blog-button:hover {
+  background-color: #2d3e50;
+}
+
+#see-photos-button {
+  color: #ebebea;
+  background-color: #b04229;
+  border-color: #ebebea;
+}
+
+#see-photos-button:hover {
+  background-color: #9e3b24;
+}
